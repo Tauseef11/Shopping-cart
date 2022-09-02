@@ -1,0 +1,58 @@
+.cards {
+  border: 1px solid black;
+  max-width: 325px;
+  margin: 0 auto;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.item {
+  padding: 1rem;
+  height: 5rem;
+  width: 7rem;
+}
+.quantity {
+  padding: 1rem;
+  height: 5rem;
+  width: 5rem;
+}
+.price {
+  padding: 1rem;
+  height: 5rem;
+  width: 5rem;
+  margin-left: -2rem;
+}
+.button {
+  padding: 1rem;
+  height: 5rem;
+  width: 5rem;
+}
+.totalprice {
+  padding: 1rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+@media (min-width: 280px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 300px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 300px) {
+  #checkoutbutton {
+    width: 50px;
+    margin-left: -60px;
+  }
+}
+@media (min-width: 900px) {
+  #checkoutbutton {
+    width: 100px;
+    margin-left: -85px;
+  }
+}

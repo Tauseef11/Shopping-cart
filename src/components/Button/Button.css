@@ -1,0 +1,18 @@
+  #clearbutton {
+    background: none;
+    border: none;
+    margin-top: 40px;
+    margin-left: -5px;
+    padding: 0px;
+    cursor: pointer;
+  }
+  #checkoutbutton {
+    margin-top: 30px;
+    margin-left: -50px;
+    background-color: #6495ed;
+    color: white;
+    height: 35px;
+    width: 100px;
+    font-weight: bold;
+    border: none;
+  }
